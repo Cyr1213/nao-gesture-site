@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real-Time Synchronized Interaction Framework for Emotion-Aware Humanoid Robots</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- Your custom style for line spacing -->
+  <!-- <style>
+      #answer-1 {
+          line-height: 1;
+          font-size: 1rem;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding: 0; /* This ensures no extra space around the text */
+      }
+  </style> -->
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+
+  <!-- Title -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2" style="font-weight: bold; font-family: 'Noto Sans', sans-serif;">
+            Real-Time Synchronized Interaction Framework for Emotion-Aware Humanoid Robots
+          </h1>
+           <!-- Author Info -->
+      <div class="is-size-5 publication-authors" style="margin-top: 1.5rem;">
+        <p><strong>Author:</strong> Yanrong Chen</p>
+        <p>
+          <a href="mailto:Yanrong.Chen21@student.xjtlu.edu.cn">
+            <span class="icon"><i class="fa fa-envelope"></i></span>
+            Yanrong.Chen21@student.xjtlu.edu.cn
+          </a>
+        </p>
+
+        <p style="margin-top: 1.5rem;"><strong>Supervisor:</strong> Xihan Bian</p>
+        <p>
+          <a href="mailto:Xihan.Bian@xjtlu.edu.cn">
+            <span class="icon"><i class="fa fa-envelope"></i></span>
+            Xihan.Bian@xjtlu.edu.cn
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Method Video -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Method</h2>
+      <video controls autoplay muted loop style="width: 100%; border-radius: 8px;">
+        <source src="videos/nao_method.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p style="font-size: 125%">
+                      As humanoid robots increasingly introduced into social scene, achieving emotionally synchronized multimodal interaction poses significant challenges. To further grow the integration of humanoid robots into service roles, we present a real-time framework for NAO robots that synchronizes speech prosody with full-body gestures through three innovations: (1) A dual-channel emotion engine where LLM simultaneously generates context-aware text responses and biomechanically feasible motion descriptors, constrained by a structured joint movement library; (2) Dynamic time warping enhanced by duration-aware sequencing to temporally align speech output with kinematic motion keyframes; (3) Closed-loop feasibility verification ensuring gestures adhere to NAO’s physical joint limits through real-time adaptation. Evaluations show 21% higher emotional alignment than rule-based systems, achieved by coordinating vocal pitch (valence-driven) with upper-limb kinematics while maintaining lower-body stability. By enabling seamless sensorimotor coordination, this framework advances the deployment of context-aware social robots in dynamic applications such as personalized healthcare, interactive education, and responsive customer service platforms.
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+
+</html>
